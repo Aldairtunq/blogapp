@@ -15,11 +15,21 @@ class _HomePageState extends State<HomePage> {
         title: Row(
           children: [
             Text(
-              "My App blog Aldair",
-              style: TextStyle(),
-            )
+              "Flutter",
+              style: TextStyle(
+                fontSize: 25,
+              ),
+            ),
+            Text(
+              "Blog",
+              style: TextStyle(
+                fontSize: 25,
+                color: Colors.blue,
+              ),
+            ),
           ],
         ),
+        backgroundColor: Colors.transparent,
       ),
     );
   }
